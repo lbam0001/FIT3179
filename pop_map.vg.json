@@ -5,7 +5,7 @@
   "title": "The global population",
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/Week%209%20Homework/combined_pop_country.csv"
+    "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/combined_pop_country.csv"
   },
   "layer": [
     {
