@@ -16,9 +16,12 @@
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white", "opacity": 0.2}
     },
     {
-      "mark": {"type": "square", "tooltip": {
-        "content": "data"}},
+      "mark": {"type": "square"},
       "encoding": {
+        "tooltip" : [
+          {"field" : "Country Name", "type": "nominal"},
+          {"field" : "2020", "type" : "quantitative", "title" : "2020 Population", "format": ","}
+        ],
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size" : {
