@@ -90,7 +90,7 @@
                 "groupby": ["Country_Origin", "Year_Range", "state"]
             },
             {"filter": "state_selection == null || datum.state == state_selection"}],
-            "mark": "bar",
+            "mark": {"type": "bar"},
             "encoding" : {
                 "x": {"field": "Year_Range", "type": "nominal", "axis": {"title": "Year immigrated"}},
                 "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}},
