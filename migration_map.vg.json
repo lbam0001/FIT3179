@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 900,
+    "height": 600,
+    "title": "Australian migration",
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/combined_pop_country.csv"
+    },
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
+          "format": {"type": "topojson", "feature": "aus_states.geo"}
+        },
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white", "opacity": 1}
+      }
+    ]
+  }
