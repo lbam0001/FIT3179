@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Urban Area of Australia",
+    "width": 800,
+    "height" : 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
+      "format": {
+            "type": "topojson",
+            "feature": "aus_states.geo"
+          }
+    },
+    "params": [
+        {
+            "name" : "centre_state",
+            "value" : [133.7751, -28.2744],
+            "bind" : {
+                "name" : "State centre ",
+                "input" : "select",
+                "options" : [
+                    [133.7751, -28.2744],
+                    [146.9211, -31.2532],
+                    [143.3906, -36.9848],
+                    [144.0848, -22.5752],
+                    [121.6283, -27.6728],
+                    [136.2092, -32],
+                    [146.8087, -42.0409],
+                    [132.5510, -19.4914]
+                ],
+                "labels": [
+                    "National",
+                    "NSW",
+                    "VIC",
+                    "QLD",
+                    "WA",
+                    "SA",
+                    "TAS",
+                    "NT"
+                ]
+            }
+        },
+        {
+            "name" : "zoom_level",
+            "value" : 850,
+            "bind" : {
+                "input" : "range",
+                "min": 850,
+                "max" : 3000,
+                "step" : 50,
+                "name" : "Zoom"
+            }
+        }
+    ],
+    "projection": {"type": "mercator", "center": {"expr": "centre_state"}, "scale": {"expr": "zoom_level"}},
+    "layer": [
+        {
+          "mark": {
+              "type": "geoshape",
+              "color" : "lightgrey"
+              }
+        },
+        {
+          "data" : {
+            "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/city_location_pop_joined.csv"
+          },
+          "transform": [
+              {"calculate": "((datum.Total_2016 - datum.Total_2011) / datum.Total_2011) * 100", "as" : "pop_change"}
+          ],
+          "mark" : "circle",
+          "encoding": {
+            "longitude" : {"field" : "lng", "type" : "quantitative"},
+            "latitude" : {"field" : "lat", "type" : "quantitative"},
+            "size" : {"field" : "Total_2016",
+                "type" : "quantitative",
+                "scale": {"rangeMax": {"expr": "zoom_level"}, "rangeMin": {"expr": "zoom_level / 80 + 5"}},
+                "title" : "2016 Population"},
+            "color" : {
+                "field" : "pop_change", 
+                "type" : "quantitative",
+                "title" : "% change since 2011",
+                "scale": {"range" : ["#ff7f0e", "#17becf"], "domainMid" : 0}
+                },
+            "tooltip": [
+                {"field" : "City"},
+                {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},
+                {"field" : "pop_change", "title": "% change since 2011", "format": ".2f"}
+            ]
+          }
+        }
+    ]
+    
+  }
+  
