@@ -13,19 +13,20 @@
     "params": [
         {
             "name" : "centre_state",
-            "value" : [133.7751, -28.2744],
+            "value" : [[133.7751, -28.2744], 850, null],
             "bind" : {
                 "name" : "State centre ",
                 "input" : "select",
                 "options" : [
-                    [133.7751, -28.2744],
-                    [146.9211, -33.2532],
-                    [143.3906, -36.9848],
-                    [144.0848, -20.5752],
-                    [121.6283, -24.6728],
-                    [136.2092, -32],
-                    [146.8087, -42.0409],
-                    [132.5510, -18.4914]
+                    [[133.7751, -28.2744], 850, null],
+                    [[146.9211, -33.2532], 2700, "New South Wales"],
+                    [[143.3906, -36.9848], 3000, "Victoria"],
+                    [[144.0848, -20.5752], 1600, "Queensland"],
+                    [[121.6283, -24.6728], 1400, "Western Australia"],
+                    [[136.2092, -32], 2200, "South Australia"],
+                    [[146.8087, -42.0409], 3000, "Tasmania"],
+                    [[132.5510, -18.4914], 2000, "Northern Territory"],
+                    [[149.13, -35.2809], 3000, "Australian Capital Territory"]
                 ],
                 "labels": [
                     "National",
@@ -35,23 +36,13 @@
                     "WA",
                     "SA",
                     "TAS",
-                    "NT"
+                    "NT",
+                    "ACT"
                 ]
-            }
-        },
-        {
-            "name" : "zoom_level",
-            "value" : 850,
-            "bind" : {
-                "input" : "range",
-                "min": 850,
-                "max" : 3000,
-                "step" : 50,
-                "name" : "Zoom"
             }
         }
     ],
-    "projection": {"type": "mercator", "center": {"expr": "centre_state"}, "scale": {"expr": "zoom_level"}},
+    "projection": {"type": "mercator", "center": {"expr": "centre_state[0]"}, "scale": {"expr": "centre_state[1]"}},
     "layer": [
         {
           "mark": {
@@ -72,7 +63,7 @@
             "latitude" : {"field" : "lat", "type" : "quantitative"},
             "size" : {"field" : "Total_2016",
                 "type" : "quantitative",
-                "scale": {"rangeMax": {"expr": "zoom_level"}, "rangeMin": {"expr": "zoom_level / 80 + 5"}},
+                "scale": {"rangeMax": {"expr": "centre_state[1]"}, "rangeMin": {"expr": "centre_state[1] / 80 + 5"}},
                 "title" : "2016 Population"},
             "color" : {
                 "field" : "pop_change", 
@@ -80,6 +71,13 @@
                 "title" : "% change since 2011",
                 "scale": {"range" : ["#ff7f0e", "#17becf"], "domainMid" : 0}
                 },
+            "opacity" : {
+                "condition" : {
+                    "test" : "centre_state[2] == datum.state || centre_state[2] == null",
+                    "value" : 0.7
+                },
+                "value" : 0.25
+            },
             "tooltip": [
                 {"field" : "City"},
                 {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},
@@ -103,12 +101,12 @@
                 "latitude" : {"field" : "lat", "type" : "quantitative"},
                 "opacity": {
                     "condition": {
-                      "test": "(datum.capital == 'admin' && zoom_level > 1300) || datum.capital == 'primary'",
+                      "test": "(datum.state == centre_state[2] && (datum.capital == 'admin' || datum.capital == 'primary')) || (datum.capital == 'primary' && centre_state[2] == null)",
                       "value": 1
                     },
                     "value": 0
                   },
-                "size" : {"field" : "zoom_level", "scale" : {"rangeMax": 100}, "title": "Capitals"},
+                "size" : {"field" : "centre_state[1]", "scale" : {"rangeMax": 100}, "title": "Capitals"},
                 "tooltip": [
                     {"field" : "City"},
                     {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},
