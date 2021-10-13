@@ -1,0 +1,10 @@
+h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;} 
+h2 {text-align: center;}
+p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+p {text-align: center;}
+div {margin: auto;}
+
+.vega-embed.has-actions {
+    margin: auto;
+    padding: 10px;
+  }
