@@ -1,0 +1,199 @@
+﻿Age_Bracket,State,Male,Female,Total
+0-4 years,New South Wales,238859,226273,465135
+0-4 years,Victoria,190592,180625,371219
+0-4 years,Queensland,152032,144429,296464
+0-4 years,South Australia,49909,47161,97068
+0-4 years,Western Australia,83156,78572,161732
+0-4 years,Tasmania,14539,13929,28475
+0-4 years,Northern Territory,9000,8623,17628
+0-4 years,Australian Capital Territory,13898,12897,26796
+0-4 years,Other Territories,143,123,263
+5-9 years,New South Wales,245210,232976,478185
+5-9 years,Victoria,189075,179558,368635
+5-9 years,Queensland,162809,154329,317138
+5-9 years,South Australia,51432,49036,100467
+5-9 years,Western Australia,84278,79873,164154
+5-9 years,Tasmania,16190,15326,31517
+5-9 years,Northern Territory,8689,8131,16819
+5-9 years,Australian Capital Territory,13228,12225,25449
+5-9 years,Other Territories,154,130,286
+10-14 years,New South Wales,227882,215129,443012
+10-14 years,Victoria,174907,166156,341065
+10-14 years,Queensland,153680,145413,299095
+10-14 years,South Australia,49074,46382,95462
+10-14 years,Western Australia,77299,73504,150806
+10-14 years,Tasmania,15492,14729,30221
+10-14 years,Northern Territory,7776,7252,15028
+10-14 years,Australian Capital Territory,11391,10843,22233
+10-14 years,Other Territories,127,136,261
+15-19 years,New South Wales,230107,218317,448424
+15-19 years,Victoria,181849,174492,356338
+15-19 years,Queensland,151192,145089,296285
+15-19 years,South Australia,51515,49169,100684
+15-19 years,Western Australia,77112,72881,149998
+15-19 years,Tasmania,15958,15118,31079
+15-19 years,Northern Territory,7474,6598,14072
+15-19 years,Australian Capital Territory,12364,12144,24506
+15-19 years,Other Territories,104,103,214
+20-24 years,New South Wales,248485,241183,489669
+20-24 years,Victoria,209730,204064,413790
+20-24 years,Queensland,159283,157576,316859
+20-24 years,South Australia,55218,52766,107987
+20-24 years,Western Australia,82560,77773,160335
+20-24 years,Tasmania,15292,14569,29864
+20-24 years,Northern Territory,8850,7796,16644
+20-24 years,Australian Capital Territory,15860,15563,31430
+20-24 years,Other Territories,136,71,211
+25-29 years,New South Wales,260579,266577,527158
+25-29 years,Victoria,217556,223709,441268
+25-29 years,Queensland,158127,162626,320749
+25-29 years,South Australia,53509,53851,107362
+25-29 years,Western Australia,92971,91940,184908
+25-29 years,Tasmania,14091,14609,28699
+25-29 years,Northern Territory,11133,10573,21707
+25-29 years,Australian Capital Territory,15947,16538,32485
+25-29 years,Other Territories,162,100,263
+30-34 years,New South Wales,265983,274379,540363
+30-34 years,Victoria,219608,228324,447923
+30-34 years,Queensland,159731,166218,325943
+30-34 years,South Australia,54763,55983,110747
+30-34 years,Western Australia,97985,96282,194267
+30-34 years,Tasmania,14241,15085,29328
+30-34 years,Northern Territory,10860,10471,21333
+30-34 years,Australian Capital Territory,16484,17143,33630
+30-34 years,Other Territories,167,142,310
+35-39 years,New South Wales,247359,252362,499722
+35-39 years,Victoria,199917,204109,404028
+35-39 years,Queensland,149442,155777,305218
+35-39 years,South Australia,51118,51697,102814
+35-39 years,Western Australia,87305,85737,173040
+35-39 years,Tasmania,13522,14810,28335
+35-39 years,Northern Territory,9268,8747,18014
+35-39 years,Australian Capital Territory,15014,15174,30188
+35-39 years,Other Territories,182,140,317
+40-44 years,New South Wales,246904,256266,503162
+40-44 years,Victoria,196062,205829,401892
+40-44 years,Queensland,157707,165198,322899
+40-44 years,South Australia,53069,53580,106650
+40-44 years,Western Australia,86213,85784,172001
+40-44 years,Tasmania,15078,16422,31499
+40-44 years,Northern Territory,8580,8035,16615
+40-44 years,Australian Capital Territory,13926,14286,28213
+40-44 years,Other Territories,171,154,321
+45-49 years,New South Wales,239600,252844,492443
+45-49 years,Victoria,194776,207269,402045
+45-49 years,Queensland,157523,165459,322979
+45-49 years,South Australia,56186,57435,113618
+45-49 years,Western Australia,86578,85942,172519
+45-49 years,Tasmania,16645,17863,34514
+45-49 years,Northern Territory,8537,7914,16455
+45-49 years,Australian Capital Territory,13162,13392,26554
+45-49 years,Other Territories,170,165,333
+50-54 years,New South Wales,238856,246687,485543
+50-54 years,Victoria,184599,193771,378372
+50-54 years,Queensland,151016,157712,308725
+50-54 years,South Australia,55930,57337,113269
+50-54 years,Western Australia,81546,80892,162437
+50-54 years,Tasmania,17250,18290,35539
+50-54 years,Northern Territory,7697,7157,14854
+50-54 years,Australian Capital Territory,11845,12589,24433
+50-54 years,Other Territories,207,173,380
+55-59 years,New South Wales,228773,240948,469721
+55-59 years,Victoria,173172,184442,357614
+55-59 years,Queensland,142723,149475,292200
+55-59 years,South Australia,54668,57230,111898
+55-59 years,Western Australia,74122,75778,149898
+55-59 years,Tasmania,18078,19310,37383
+55-59 years,Northern Territory,6600,6291,12891
+55-59 years,Australian Capital Territory,10793,11561,22359
+55-59 years,Other Territories,195,185,378
+60-64 years,New South Wales,204286,215758,420046
+60-64 years,Victoria,154399,165440,319839
+60-64 years,Queensland,127555,133130,260687
+60-64 years,South Australia,49505,52524,102027
+60-64 years,Western Australia,64835,67306,132144
+60-64 years,Tasmania,16997,17783,34775
+60-64 years,Northern Territory,5503,4900,10409
+60-64 years,Australian Capital Territory,9112,10040,19147
+60-64 years,Other Territories,172,163,331
+65-69 years,New South Wales,188363,196103,384471
+65-69 years,Victoria,140086,151313,291395
+65-69 years,Queensland,119671,122528,242191
+65-69 years,South Australia,46646,49638,96289
+65-69 years,Western Australia,57902,58854,116755
+65-69 years,Tasmania,16180,16769,32946
+65-69 years,Northern Territory,4002,3361,7366
+65-69 years,Australian Capital Territory,8210,9072,17287
+65-69 years,Other Territories,170,127,299
+70-74 years,New South Wales,142101,150451,292556
+70-74 years,Victoria,104737,113463,218198
+70-74 years,Queensland,88924,91484,180410
+70-74 years,South Australia,34672,37897,72562
+70-74 years,Western Australia,40852,42054,82907
+70-74 years,Tasmania,11894,12535,24433
+70-74 years,Northern Territory,2314,1987,4295
+70-74 years,Australian Capital Territory,5731,6435,12167
+70-74 years,Other Territories,93,86,175
+75-79 years,New South Wales,102029,115280,217308
+75-79 years,Victoria,76915,88199,165110
+75-79 years,Queensland,60823,65261,126084
+75-79 years,South Australia,25006,28881,53883
+75-79 years,Western Australia,29055,32452,61508
+75-79 years,Tasmania,8334,9280,17610
+75-79 years,Northern Territory,1322,1192,2512
+75-79 years,Australian Capital Territory,3898,4625,8522
+75-79 years,Other Territories,68,53,116
+80-84 years,New South Wales,68884,86921,155810
+80-84 years,Victoria,52534,67361,119896
+80-84 years,Queensland,37884,45849,83736
+80-84 years,South Australia,17430,21942,39371
+80-84 years,Western Australia,18804,23786,42588
+80-84 years,Tasmania,5345,6650,11992
+80-84 years,Northern Territory,573,689,1256
+80-84 years,Australian Capital Territory,2546,3292,5837
+80-84 years,Other Territories,27,35,68
+85-89 years,New South Wales,42324,63884,106207
+85-89 years,Victoria,32457,48804,81266
+85-89 years,Queensland,21792,32752,54550
+85-89 years,South Australia,11025,16667,27689
+85-89 years,Western Australia,11001,16187,27186
+85-89 years,Tasmania,3040,4520,7560
+85-89 years,Northern Territory,296,375,671
+85-89 years,Australian Capital Territory,1549,2253,3803
+85-89 years,Other Territories,15,19,36
+90-94 years,New South Wales,16121,32484,48604
+90-94 years,Victoria,12431,24290,36726
+90-94 years,Queensland,8108,16163,24271
+90-94 years,South Australia,4356,8908,13261
+90-94 years,Western Australia,4019,8025,12043
+90-94 years,Tasmania,1084,2304,3388
+90-94 years,Northern Territory,79,138,213
+90-94 years,Australian Capital Territory,627,1256,1877
+90-94 years,Other Territories,6,12,15
+95-99 years,New South Wales,3115,8560,11673
+95-99 years,Victoria,2416,6430,8853
+95-99 years,Queensland,1702,4299,5998
+95-99 years,South Australia,867,2313,3183
+95-99 years,Western Australia,783,2204,2992
+95-99 years,Tasmania,207,536,742
+95-99 years,Northern Territory,18,30,52
+95-99 years,Australian Capital Territory,134,286,424
+95-99 years,Other Territories,3,0,7
+100 years and over,New South Wales,190,831,1025
+100 years and over,Victoria,258,896,1155
+100 years and over,Queensland,174,542,711
+100 years and over,South Australia,91,262,353
+100 years and over,Western Australia,43,167,204
+100 years and over,Tasmania,16,51,67
+100 years and over,Northern Territory,0,0,0
+100 years and over,Australian Capital Territory,11,42,53
+100 years and over,Other Territories,0,0,0
+Total,New South Wales,3686007,3794216,7480230
+Total,Victoria,2908079,3018545,5926624
+Total,Queensland,2321885,2381302,4703192
+Total,South Australia,826001,850653,1676653
+Total,Western Australia,1238418,1235996,2474414
+Total,Tasmania,249476,260480,509961
+Total,Northern Territory,118568,110269,228838
+Total,Australian Capital Territory,195743,201660,397393
+Total,Other Territories,2463,2119,4583
