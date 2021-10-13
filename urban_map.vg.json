@@ -19,13 +19,13 @@
                 "input" : "select",
                 "options" : [
                     [133.7751, -28.2744],
-                    [146.9211, -31.2532],
+                    [146.9211, -33.2532],
                     [143.3906, -36.9848],
-                    [144.0848, -22.5752],
-                    [121.6283, -27.6728],
+                    [144.0848, -20.5752],
+                    [121.6283, -24.6728],
                     [136.2092, -32],
                     [146.8087, -42.0409],
-                    [132.5510, -19.4914]
+                    [132.5510, -18.4914]
                 ],
                 "labels": [
                     "National",
@@ -86,6 +86,35 @@
                 {"field" : "pop_change", "title": "% change since 2011", "format": ".2f"}
             ]
           }
+        },
+        {
+            "data" : {
+                "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/city_location_pop_joined.csv"
+            },
+            "transform": [
+                {"calculate": "((datum.Total_2016 - datum.Total_2011) / datum.Total_2011) * 100", "as" : "pop_change"}
+            ],
+            "mark" : {
+                "type" : "point",
+                "shape": "diamond"
+            },
+            "encoding": {
+                "longitude" : {"field" : "lng", "type" : "quantitative"},
+                "latitude" : {"field" : "lat", "type" : "quantitative"},
+                "opacity": {
+                    "condition": {
+                      "test": "(datum.capital == 'admin' && zoom_level > 1300) || datum.capital == 'primary'",
+                      "value": 1
+                    },
+                    "value": 0
+                  },
+                "size" : {"field" : "zoom_level", "scale" : {"rangeMax": 100}, "title": "Capitals"},
+                "tooltip": [
+                    {"field" : "City"},
+                    {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},
+                    {"field" : "pop_change", "title": "% change since 2011", "format": ".2f"}
+                ]
+            }
         }
     ]
     

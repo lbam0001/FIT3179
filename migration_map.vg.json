@@ -89,15 +89,16 @@
                 }],
                 "groupby": ["Country_Origin", "Year_Range", "state"]
             },
-            {"filter": "state_selection == null || datum.state == state_selection"}],
+            {"filter": "(state_selection == null || datum.state == state_selection) && datum.state != 'Total'"}],
             "mark": {"type": "bar"},
             "encoding" : {
                 "x": {"field": "Year_Range", "type": "nominal", "axis": {"title": "Year immigrated"}},
-                "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}},
+                "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}, "aggregate": "sum"},
                 "color" : {"field": "Country_Origin"},
                 "tooltip": [
                     {"field": "total_imm_origin", "type": "quantitative", "title": "Immigrants in this period"},
-                    {"field" : "Country_Origin", "type": "nominal", "title": "Origin"}
+                    {"field" : "Country_Origin", "type": "nominal", "title": "Origin"},
+                    {"field": "state", "type": "nominal"}
                 ]
             }
         }
