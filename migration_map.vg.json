@@ -1,108 +1,107 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Immigrants per 1000 Residents",
-    "data": {
-      "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
-      "format": {
-            "type": "topojson",
-            "feature": "aus_states.geo"
-          }
-    },
-    "transform": [{
-        "lookup": "properties.STATE_NAME",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/origin_state_clean.csv"
-          },
-          "key": "State",
-          "fields": ["Total_Imm", "Total_Pop", "Country_Origin"]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Immigrants per 1000 Residents",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
+    "format": {
+          "type": "topojson",
+          "feature": "aus_states.geo"
         }
-      },
-      {"calculate": "datum.Total_Imm / datum.Total_Pop * 1000", "as": "immigrants per 1000"}
-    ],
-    "params": [
-        {"name": "state_select",
-        "select": {
-            "type": "point"
-        }},
-        {
-            "name": "state_selection",
-            "bind": {
-              "input": "select",
-              "options": [
-                null,
-                "Western Australia",
-                "South Australia",
-                "Northern Territory",
-                "Queensland",
-                "New South Wales",
-                "Victoria",
-                "Tasmania",
-                "Australian Capital Territory"
-              ],
-              "labels":[
-                "All",
-                "Western Australia",
-                "South Australia",
-                "Northern Territory",
-                "Queensland",
-                "New South Wales",
-                "Victoria",
-                "Tasmania",
-                "Australian Capital Territory"
-              ],
-              "name": "State Selection: "
-            }
-          }
-    ],
-    "vconcat": [
-        {
-            "width": 800,
-            "height" : 600,
-            "projection": {"type": "mercator"},
-            "mark": {
-                "type": "geoshape"
-                },
-            "encoding": {
-                "color": {
-                  "field": "immigrants per 1000",
-                  "type": "quantitative"
-                },
-                "tooltip": [
-                  {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
-                  {"field": "immigrants per 1000", "type": "quantitative", "title": "Total immigrants", "format": ".2f"}
-                ]
-              }
+  },
+  "transform": [{
+      "lookup": "properties.STATE_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/cont_origin_long.csv"
         },
-        {  
-            "width": 800,
-            "height" : 300,
-            "params": [],
-            "data": {
-                "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/origin_state_clean_long.csv"
-            },
-            "transform": [{
-                "aggregate": [{
-                    "op" : "sum",
-                    "field" : "Migration_val",
-                    "as" : "total_imm_origin"
-                }],
-                "groupby": ["Country_Origin", "Year_Range", "state"]
-            },
-            {"filter": "(state_selection == null || datum.state == state_selection) && datum.state != 'Total'"}],
-            "mark": {"type": "bar"},
-            "encoding" : {
-                "x": {"field": "Year_Range", "type": "nominal", "axis": {"title": "Year immigrated"}},
-                "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}, "aggregate": "sum"},
-                "color" : {"field": "Country_Origin"},
-                "tooltip": [
-                    {"field": "total_imm_origin", "type": "quantitative", "title": "Immigrants in this period"},
-                    {"field" : "Country_Origin", "type": "nominal", "title": "Origin"},
-                    {"field": "state", "type": "nominal"}
-                ]
-            }
+        "key": "State",
+        "fields": ["Total_imm", "State_Total", "Cont_origin"]
+      }
+    },
+    {"calculate": "datum.Total_imm / datum.State_Total * 1000", "as": "immigrants per 1000"}
+  ],
+  "params": [
+      {"name": "state_select",
+      "select": {
+          "type": "point"
+      }},
+      {
+          "name": "state_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Western Australia",
+              "South Australia",
+              "Northern Territory",
+              "Queensland",
+              "New South Wales",
+              "Victoria",
+              "Tasmania",
+              "Australian Capital Territory"
+            ],
+            "labels":[
+              "All",
+              "Western Australia",
+              "South Australia",
+              "Northern Territory",
+              "Queensland",
+              "New South Wales",
+              "Victoria",
+              "Tasmania",
+              "Australian Capital Territory"
+            ],
+            "name": "State Selection: "
+          }
         }
-    ]
-    
-  }
+  ],
+  "vconcat": [
+      {
+          "width": 800,
+          "height" : 600,
+          "projection": {"type": "mercator"},
+          "mark": {
+              "type": "geoshape"
+              },
+          "encoding": {
+              "color": {
+                "field": "immigrants per 1000",
+                "type": "quantitative"
+              },
+              "tooltip": [
+                {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
+                {"field": "immigrants per 1000", "type": "quantitative", "title": "Total immigrants", "format": ".2f"}
+              ]
+            }
+      },
+      {  
+          "width": 800,
+          "height" : 300,
+          "params": [],
+          "data": {
+              "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/cont_origin_long.csv"
+          },
+          "transform": [{
+              "aggregate": [{
+                  "op" : "sum",
+                  "field" : "Imm_value",
+                  "as" : "total_imm_origin"
+              }],
+              "groupby": ["Cont_origin", "Year_range", "State"]
+          },
+          {"filter": "(state_selection == null || datum.State == state_selection)"}],
+          "mark": {"type": "bar"},
+          "encoding" : {
+              "x": {"field": "Year_range", "type": "nominal", "axis": {"title": "Year immigrated"}},
+              "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}, "aggregate": "sum"},
+              "color" : {"field": "Cont_origin"},
+              "tooltip": [
+                  {"field": "total_imm_origin", "type": "quantitative", "title": "Immigrants in this period"},
+                  {"field" : "Cont_origin", "type": "nominal", "title": "Origin"},
+                  {"field": "State", "type": "nominal"}
+              ]
+          }
+      }
+  ]
   
+}
