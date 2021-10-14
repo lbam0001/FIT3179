@@ -1,0 +1,577 @@
+﻿Imm_value,Year_range,Total_imm,State_Total,State_Native,Cont_origin,State
+0,1900-1945,71192,228723,157531,Americas,Northern Territory
+5,1946-1955,71192,228723,157531,Americas,Northern Territory
+35,1956-1965,71192,228723,157531,Americas,Northern Territory
+174,1966-1975,71192,228723,157531,Americas,Northern Territory
+144,1976-1985,71192,228723,157531,Americas,Northern Territory
+159,1986-1995,71192,228723,157531,Americas,Northern Territory
+267,1996-2005,71192,228723,157531,Americas,Northern Territory
+1056,2006-2015,71192,228723,157531,Americas,Northern Territory
+10,1900-1945,98312,509807,411495,North-East Asia,Tasmania
+31,1946-1955,98312,509807,411495,North-East Asia,Tasmania
+79,1956-1965,98312,509807,411495,North-East Asia,Tasmania
+76,1966-1975,98312,509807,411495,North-East Asia,Tasmania
+131,1976-1985,98312,509807,411495,North-East Asia,Tasmania
+328,1986-1995,98312,509807,411495,North-East Asia,Tasmania
+615,1996-2005,98312,509807,411495,North-East Asia,Tasmania
+2866,2006-2015,98312,509807,411495,North-East Asia,Tasmania
+178,1900-1945,2576600,7475802,4899202,South-East Asia,New South Wales
+626,1946-1955,2576600,7475802,4899202,South-East Asia,New South Wales
+2091,1956-1965,2576600,7475802,4899202,South-East Asia,New South Wales
+8665,1966-1975,2576600,7475802,4899202,South-East Asia,New South Wales
+54592,1976-1985,2576600,7475802,4899202,South-East Asia,New South Wales
+72131,1986-1995,2576600,7475802,4899202,South-East Asia,New South Wales
+52550,1996-2005,2576600,7475802,4899202,South-East Asia,New South Wales
+92811,2006-2015,2576600,7475802,4899202,South-East Asia,New South Wales
+19,1900-1945,483284,1675834,1192550,Southern and Central Asia,South Australia
+214,1946-1955,483284,1675834,1192550,Southern and Central Asia,South Australia
+270,1956-1965,483284,1675834,1192550,Southern and Central Asia,South Australia
+901,1966-1975,483284,1675834,1192550,Southern and Central Asia,South Australia
+595,1976-1985,483284,1675834,1192550,Southern and Central Asia,South Australia
+1234,1986-1995,483284,1675834,1192550,Southern and Central Asia,South Australia
+4602,1996-2005,483284,1675834,1192550,Southern and Central Asia,South Australia
+36272,2006-2015,483284,1675834,1192550,Southern and Central Asia,South Australia
+151,1900-1945,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+1481,1946-1955,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+3639,1956-1965,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+11854,1966-1975,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+9065,1976-1985,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+14806,1986-1995,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+21862,1996-2005,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+42401,2006-2015,2076071,5921586,3845515,North Africa and the Middle East,Victoria
+144,1900-1945,2076071,5921586,3845515,South-East Asia,Victoria
+417,1946-1955,2076071,5921586,3845515,South-East Asia,Victoria
+1254,1956-1965,2076071,5921586,3845515,South-East Asia,Victoria
+5421,1966-1975,2076071,5921586,3845515,South-East Asia,Victoria
+41028,1976-1985,2076071,5921586,3845515,South-East Asia,Victoria
+55636,1986-1995,2076071,5921586,3845515,South-East Asia,Victoria
+42945,1996-2005,2076071,5921586,3845515,South-East Asia,Victoria
+99548,2006-2015,2076071,5921586,3845515,South-East Asia,Victoria
+858,1900-1945,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+23922,1946-1955,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+48236,1956-1965,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+53817,1966-1975,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+18178,1976-1985,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+21205,1986-1995,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+19389,1996-2005,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+23245,2006-2015,2576600,7475802,4899202,Southern and Eastern Europe,New South Wales
+1532,1900-1945,2076071,5921586,3845515,North-West Europe,Victoria
+33293,1946-1955,2076071,5921586,3845515,North-West Europe,Victoria
+51700,1956-1965,2076071,5921586,3845515,North-West Europe,Victoria
+58317,1966-1975,2076071,5921586,3845515,North-West Europe,Victoria
+28665,1976-1985,2076071,5921586,3845515,North-West Europe,Victoria
+23149,1986-1995,2076071,5921586,3845515,North-West Europe,Victoria
+28668,1996-2005,2076071,5921586,3845515,North-West Europe,Victoria
+54290,2006-2015,2076071,5921586,3845515,North-West Europe,Victoria
+396,1900-1945,483284,1675834,1192550,North-West Europe,South Australia
+13626,1946-1955,483284,1675834,1192550,North-West Europe,South Australia
+31908,1956-1965,483284,1675834,1192550,North-West Europe,South Australia
+41657,1966-1975,483284,1675834,1192550,North-West Europe,South Australia
+10723,1976-1985,483284,1675834,1192550,North-West Europe,South Australia
+8768,1986-1995,483284,1675834,1192550,North-West Europe,South Australia
+9702,1996-2005,483284,1675834,1192550,North-West Europe,South Australia
+18933,2006-2015,483284,1675834,1192550,North-West Europe,South Australia
+106,1900-1945,98312,509807,411495,North-West Europe,Tasmania
+3774,1946-1955,98312,509807,411495,North-West Europe,Tasmania
+5772,1956-1965,98312,509807,411495,North-West Europe,Tasmania
+8367,1966-1975,98312,509807,411495,North-West Europe,Tasmania
+3165,1976-1985,98312,509807,411495,North-West Europe,Tasmania
+1971,1986-1995,98312,509807,411495,North-West Europe,Tasmania
+1960,1996-2005,98312,509807,411495,North-West Europe,Tasmania
+2467,2006-2015,98312,509807,411495,North-West Europe,Tasmania
+948,1900-1945,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+31338,1946-1955,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+67658,1956-1965,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+63736,1966-1975,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+19688,1976-1985,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+23722,1986-1995,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+19097,1996-2005,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+19377,2006-2015,2076071,5921586,3845515,Southern and Eastern Europe,Victoria
+0,1900-1945,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+140,1946-1955,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+411,1956-1965,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+548,1966-1975,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+323,1976-1985,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+210,1986-1995,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+237,1996-2005,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+870,2006-2015,71192,228723,157531,Southern and Eastern Europe,Northern Territory
+51,1900-1945,2076071,5921586,3845515,Americas,Victoria
+289,1946-1955,2076071,5921586,3845515,Americas,Victoria
+900,1956-1965,2076071,5921586,3845515,Americas,Victoria
+6470,1966-1975,2076071,5921586,3845515,Americas,Victoria
+7984,1976-1985,2076071,5921586,3845515,Americas,Victoria
+9237,1986-1995,2076071,5921586,3845515,Americas,Victoria
+8654,1996-2005,2076071,5921586,3845515,Americas,Victoria
+22296,2006-2015,2076071,5921586,3845515,Americas,Victoria
+16,1900-1945,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+144,1946-1955,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+1108,1956-1965,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+2830,1966-1975,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+5283,1976-1985,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+6606,1986-1995,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+19123,1996-2005,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+39564,2006-2015,980182,2473041,1492859,Sub-Saharan Africa,Western Australia
+99,1900-1945,1357273,4701093,3343820,South-East Asia,Queensland
+419,1946-1955,1357273,4701093,3343820,South-East Asia,Queensland
+1459,1956-1965,1357273,4701093,3343820,South-East Asia,Queensland
+3854,1966-1975,1357273,4701093,3343820,South-East Asia,Queensland
+13510,1976-1985,1357273,4701093,3343820,South-East Asia,Queensland
+18432,1986-1995,1357273,4701093,3343820,South-East Asia,Queensland
+16165,1996-2005,1357273,4701093,3343820,South-East Asia,Queensland
+44770,2006-2015,1357273,4701093,3343820,South-East Asia,Queensland
+0,1900-1945,98312,509807,411495,North Africa and the Middle East,Tasmania
+32,1946-1955,98312,509807,411495,North Africa and the Middle East,Tasmania
+33,1956-1965,98312,509807,411495,North Africa and the Middle East,Tasmania
+96,1966-1975,98312,509807,411495,North Africa and the Middle East,Tasmania
+75,1976-1985,98312,509807,411495,North Africa and the Middle East,Tasmania
+98,1986-1995,98312,509807,411495,North Africa and the Middle East,Tasmania
+316,1996-2005,98312,509807,411495,North Africa and the Middle East,Tasmania
+819,2006-2015,98312,509807,411495,North Africa and the Middle East,Tasmania
+0,1900-1945,71192,228723,157531,North Africa and the Middle East,Northern Territory
+4,1946-1955,71192,228723,157531,North Africa and the Middle East,Northern Territory
+4,1956-1965,71192,228723,157531,North Africa and the Middle East,Northern Territory
+43,1966-1975,71192,228723,157531,North Africa and the Middle East,Northern Territory
+18,1976-1985,71192,228723,157531,North Africa and the Middle East,Northern Territory
+41,1986-1995,71192,228723,157531,North Africa and the Middle East,Northern Territory
+248,1996-2005,71192,228723,157531,North Africa and the Middle East,Northern Territory
+459,2006-2015,71192,228723,157531,North Africa and the Middle East,Northern Territory
+2082,1900-1945,2576600,7475802,4899202,North-West Europe,New South Wales
+33268,1946-1955,2576600,7475802,4899202,North-West Europe,New South Wales
+53522,1956-1965,2576600,7475802,4899202,North-West Europe,New South Wales
+74866,1966-1975,2576600,7475802,4899202,North-West Europe,New South Wales
+35420,1976-1985,2576600,7475802,4899202,North-West Europe,New South Wales
+33740,1986-1995,2576600,7475802,4899202,North-West Europe,New South Wales
+45408,1996-2005,2576600,7475802,4899202,North-West Europe,New South Wales
+78049,2006-2015,2576600,7475802,4899202,North-West Europe,New South Wales
+26,1900-1945,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+261,1946-1955,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+383,1956-1965,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+994,1966-1975,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+1013,1976-1985,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+2388,1986-1995,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+5884,1996-2005,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+11186,2006-2015,980182,2473041,1492859,North Africa and the Middle East,Western Australia
+18,1900-1945,980182,2473041,1492859,Americas,Western Australia
+124,1946-1955,980182,2473041,1492859,Americas,Western Australia
+464,1956-1965,980182,2473041,1492859,Americas,Western Australia
+2696,1966-1975,980182,2473041,1492859,Americas,Western Australia
+2423,1976-1985,980182,2473041,1492859,Americas,Western Australia
+3739,1986-1995,980182,2473041,1492859,Americas,Western Australia
+3955,1996-2005,980182,2473041,1492859,Americas,Western Australia
+11794,2006-2015,980182,2473041,1492859,Americas,Western Australia
+9,1900-1945,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+47,1946-1955,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+378,1956-1965,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+636,1966-1975,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+726,1976-1985,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+859,1986-1995,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+4087,1996-2005,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+8835,2006-2015,483284,1675834,1192550,Sub-Saharan Africa,South Australia
+4,1900-1945,127100,397139,270039,Americas,Australian Capital Territory
+37,1946-1955,127100,397139,270039,Americas,Australian Capital Territory
+127,1956-1965,127100,397139,270039,Americas,Australian Capital Territory
+900,1966-1975,127100,397139,270039,Americas,Australian Capital Territory
+735,1976-1985,127100,397139,270039,Americas,Australian Capital Territory
+1132,1986-1995,127100,397139,270039,Americas,Australian Capital Territory
+1007,1996-2005,127100,397139,270039,Americas,Australian Capital Territory
+2147,2006-2015,127100,397139,270039,Americas,Australian Capital Territory
+13,1900-1945,483284,1675834,1192550,Americas,South Australia
+68,1946-1955,483284,1675834,1192550,Americas,South Australia
+311,1956-1965,483284,1675834,1192550,Americas,South Australia
+1350,1966-1975,483284,1675834,1192550,Americas,South Australia
+1136,1976-1985,483284,1675834,1192550,Americas,South Australia
+1886,1986-1995,483284,1675834,1192550,Americas,South Australia
+1834,1996-2005,483284,1675834,1192550,Americas,South Australia
+4525,2006-2015,483284,1675834,1192550,Americas,South Australia
+100,1900-1945,483284,1675834,1192550,Oceania and Antarctica,South Australia
+156,1946-1955,483284,1675834,1192550,Oceania and Antarctica,South Australia
+516,1956-1965,483284,1675834,1192550,Oceania and Antarctica,South Australia
+1761,1966-1975,483284,1675834,1192550,Oceania and Antarctica,South Australia
+3051,1976-1985,483284,1675834,1192550,Oceania and Antarctica,South Australia
+2894,1986-1995,483284,1675834,1192550,Oceania and Antarctica,South Australia
+2858,1996-2005,483284,1675834,1192550,Oceania and Antarctica,South Australia
+3402,2006-2015,483284,1675834,1192550,Oceania and Antarctica,South Australia
+831,1900-1945,1357273,4701093,3343820,North-West Europe,Queensland
+22025,1946-1955,1357273,4701093,3343820,North-West Europe,Queensland
+37448,1956-1965,1357273,4701093,3343820,North-West Europe,Queensland
+55866,1966-1975,1357273,4701093,3343820,North-West Europe,Queensland
+29224,1976-1985,1357273,4701093,3343820,North-West Europe,Queensland
+26831,1986-1995,1357273,4701093,3343820,North-West Europe,Queensland
+36228,1996-2005,1357273,4701093,3343820,North-West Europe,Queensland
+60830,2006-2015,1357273,4701093,3343820,North-West Europe,Queensland
+36,1900-1945,1357273,4701093,3343820,Southern and Central Asia,Queensland
+433,1946-1955,1357273,4701093,3343820,Southern and Central Asia,Queensland
+650,1956-1965,1357273,4701093,3343820,Southern and Central Asia,Queensland
+2074,1966-1975,1357273,4701093,3343820,Southern and Central Asia,Queensland
+1494,1976-1985,1357273,4701093,3343820,Southern and Central Asia,Queensland
+3863,1986-1995,1357273,4701093,3343820,Southern and Central Asia,Queensland
+9208,1996-2005,1357273,4701093,3343820,Southern and Central Asia,Queensland
+52413,2006-2015,1357273,4701093,3343820,Southern and Central Asia,Queensland
+80,1900-1945,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+643,1946-1955,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+1096,1956-1965,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+5796,1966-1975,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+6663,1976-1985,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+25884,1986-1995,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+52870,1996-2005,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+154086,2006-2015,2576600,7475802,4899202,Southern and Central Asia,New South Wales
+110,1900-1945,2076071,5921586,3845515,North-East Asia,Victoria
+460,1946-1955,2076071,5921586,3845515,North-East Asia,Victoria
+1361,1956-1965,2076071,5921586,3845515,North-East Asia,Victoria
+1971,1966-1975,2076071,5921586,3845515,North-East Asia,Victoria
+6333,1976-1985,2076071,5921586,3845515,North-East Asia,Victoria
+26689,1986-1995,2076071,5921586,3845515,North-East Asia,Victoria
+41003,1996-2005,2076071,5921586,3845515,North-East Asia,Victoria
+116903,2006-2015,2076071,5921586,3845515,North-East Asia,Victoria
+16,1900-1945,98312,509807,411495,South-East Asia,Tasmania
+53,1946-1955,98312,509807,411495,South-East Asia,Tasmania
+120,1956-1965,98312,509807,411495,South-East Asia,Tasmania
+212,1966-1975,98312,509807,411495,South-East Asia,Tasmania
+397,1976-1985,98312,509807,411495,South-East Asia,Tasmania
+591,1986-1995,98312,509807,411495,South-East Asia,Tasmania
+787,1996-2005,98312,509807,411495,South-East Asia,Tasmania
+2567,2006-2015,98312,509807,411495,South-East Asia,Tasmania
+12,1900-1945,71192,228723,157531,Oceania and Antarctica,Northern Territory
+10,1946-1955,71192,228723,157531,Oceania and Antarctica,Northern Territory
+101,1956-1965,71192,228723,157531,Oceania and Antarctica,Northern Territory
+569,1966-1975,71192,228723,157531,Oceania and Antarctica,Northern Territory
+1046,1976-1985,71192,228723,157531,Oceania and Antarctica,Northern Territory
+887,1986-1995,71192,228723,157531,Oceania and Antarctica,Northern Territory
+940,1996-2005,71192,228723,157531,Oceania and Antarctica,Northern Territory
+1974,2006-2015,71192,228723,157531,Oceania and Antarctica,Northern Territory
+53,1900-1945,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+212,1946-1955,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+1417,1956-1965,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+5258,1966-1975,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+8361,1976-1985,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+10890,1986-1995,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+20308,1996-2005,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+24763,2006-2015,2576600,7475802,4899202,Sub-Saharan Africa,New South Wales
+136,1900-1945,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+2321,1946-1955,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+5805,1956-1965,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+25997,1966-1975,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+19181,1976-1985,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+31770,1986-1995,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+36787,1996-2005,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+57849,2006-2015,2576600,7475802,4899202,North Africa and the Middle East,New South Wales
+0,1900-1945,71192,228723,157531,Southern and Central Asia,Northern Territory
+18,1946-1955,71192,228723,157531,Southern and Central Asia,Northern Territory
+28,1956-1965,71192,228723,157531,Southern and Central Asia,Northern Territory
+99,1966-1975,71192,228723,157531,Southern and Central Asia,Northern Territory
+122,1976-1985,71192,228723,157531,Southern and Central Asia,Northern Territory
+186,1986-1995,71192,228723,157531,Southern and Central Asia,Northern Territory
+449,1996-2005,71192,228723,157531,Southern and Central Asia,Northern Territory
+4829,2006-2015,71192,228723,157531,Southern and Central Asia,Northern Territory
+71,1900-1945,127100,397139,270039,North-West Europe,Australian Capital Territory
+2370,1946-1955,127100,397139,270039,North-West Europe,Australian Capital Territory
+3922,1956-1965,127100,397139,270039,North-West Europe,Australian Capital Territory
+5129,1966-1975,127100,397139,270039,North-West Europe,Australian Capital Territory
+2213,1976-1985,127100,397139,270039,North-West Europe,Australian Capital Territory
+1908,1986-1995,127100,397139,270039,North-West Europe,Australian Capital Territory
+2078,1996-2005,127100,397139,270039,North-West Europe,Australian Capital Territory
+3673,2006-2015,127100,397139,270039,North-West Europe,Australian Capital Territory
+402,1900-1945,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+763,1946-1955,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+3442,1956-1965,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+15269,1966-1975,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+34806,1976-1985,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+42189,1986-1995,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+56116,1996-2005,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+79712,2006-2015,1357273,4701093,3343820,Oceania and Antarctica,Queensland
+10,1900-1945,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+53,1946-1955,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+92,1956-1965,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+386,1966-1975,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+513,1976-1985,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+1752,1986-1995,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+3798,1996-2005,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+10741,2006-2015,127100,397139,270039,Southern and Central Asia,Australian Capital Territory
+0,1900-1945,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+4,1946-1955,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+41,1956-1965,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+78,1966-1975,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+107,1976-1985,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+127,1986-1995,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+519,1996-2005,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+1609,2006-2015,71192,228723,157531,Sub-Saharan Africa,Northern Territory
+38,1900-1945,980182,2473041,1492859,North-East Asia,Western Australia
+107,1946-1955,980182,2473041,1492859,North-East Asia,Western Australia
+174,1956-1965,980182,2473041,1492859,North-East Asia,Western Australia
+568,1966-1975,980182,2473041,1492859,North-East Asia,Western Australia
+1541,1976-1985,980182,2473041,1492859,North-East Asia,Western Australia
+4649,1986-1995,980182,2473041,1492859,North-East Asia,Western Australia
+8261,1996-2005,980182,2473041,1492859,North-East Asia,Western Australia
+29011,2006-2015,980182,2473041,1492859,North-East Asia,Western Australia
+40,1900-1945,98312,509807,411495,Oceania and Antarctica,Tasmania
+61,1946-1955,98312,509807,411495,Oceania and Antarctica,Tasmania
+254,1956-1965,98312,509807,411495,Oceania and Antarctica,Tasmania
+834,1966-1975,98312,509807,411495,Oceania and Antarctica,Tasmania
+1207,1976-1985,98312,509807,411495,Oceania and Antarctica,Tasmania
+1069,1986-1995,98312,509807,411495,Oceania and Antarctica,Tasmania
+1007,1996-2005,98312,509807,411495,Oceania and Antarctica,Tasmania
+933,2006-2015,98312,509807,411495,Oceania and Antarctica,Tasmania
+6,1900-1945,98312,509807,411495,Americas,Tasmania
+26,1946-1955,98312,509807,411495,Americas,Tasmania
+116,1956-1965,98312,509807,411495,Americas,Tasmania
+547,1966-1975,98312,509807,411495,Americas,Tasmania
+330,1976-1985,98312,509807,411495,Americas,Tasmania
+536,1986-1995,98312,509807,411495,Americas,Tasmania
+556,1996-2005,98312,509807,411495,Americas,Tasmania
+1002,2006-2015,98312,509807,411495,Americas,Tasmania
+761,1900-1945,980182,2473041,1492859,North-West Europe,Western Australia
+14167,1946-1955,980182,2473041,1492859,North-West Europe,Western Australia
+21685,1956-1965,980182,2473041,1492859,North-West Europe,Western Australia
+62462,1966-1975,980182,2473041,1492859,North-West Europe,Western Australia
+31772,1976-1985,980182,2473041,1492859,North-West Europe,Western Australia
+33520,1986-1995,980182,2473041,1492859,North-West Europe,Western Australia
+34120,1996-2005,980182,2473041,1492859,North-West Europe,Western Australia
+73966,2006-2015,980182,2473041,1492859,North-West Europe,Western Australia
+84,1900-1945,2076071,5921586,3845515,Southern and Central Asia,Victoria
+738,1946-1955,2076071,5921586,3845515,Southern and Central Asia,Victoria
+1445,1956-1965,2076071,5921586,3845515,Southern and Central Asia,Victoria
+9269,1966-1975,2076071,5921586,3845515,Southern and Central Asia,Victoria
+6650,1976-1985,2076071,5921586,3845515,Southern and Central Asia,Victoria
+22426,1986-1995,2076071,5921586,3845515,Southern and Central Asia,Victoria
+46796,1996-2005,2076071,5921586,3845515,Southern and Central Asia,Victoria
+175599,2006-2015,2076071,5921586,3845515,Southern and Central Asia,Victoria
+364,1900-1945,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+7362,1946-1955,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+9283,1956-1965,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+8909,1966-1975,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+4951,1976-1985,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+6416,1986-1995,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+6384,1996-2005,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+9530,2006-2015,980182,2473041,1492859,Southern and Eastern Europe,Western Australia
+4,1900-1945,98312,509807,411495,Sub-Saharan Africa,Tasmania
+21,1946-1955,98312,509807,411495,Sub-Saharan Africa,Tasmania
+191,1956-1965,98312,509807,411495,Sub-Saharan Africa,Tasmania
+236,1966-1975,98312,509807,411495,Sub-Saharan Africa,Tasmania
+300,1976-1985,98312,509807,411495,Sub-Saharan Africa,Tasmania
+280,1986-1995,98312,509807,411495,Sub-Saharan Africa,Tasmania
+667,1996-2005,98312,509807,411495,Sub-Saharan Africa,Tasmania
+1229,2006-2015,98312,509807,411495,Sub-Saharan Africa,Tasmania
+423,1900-1945,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+6932,1946-1955,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+8866,1956-1965,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+8820,1966-1975,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+4895,1976-1985,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+6578,1986-1995,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+7525,1996-2005,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+10337,2006-2015,1357273,4701093,3343820,Southern and Eastern Europe,Queensland
+106,1900-1945,2576600,7475802,4899202,Americas,New South Wales
+479,1946-1955,2576600,7475802,4899202,Americas,New South Wales
+1567,1956-1965,2576600,7475802,4899202,Americas,New South Wales
+15646,1966-1975,2576600,7475802,4899202,Americas,New South Wales
+12338,1976-1985,2576600,7475802,4899202,Americas,New South Wales
+15216,1986-1995,2576600,7475802,4899202,Americas,New South Wales
+15529,1996-2005,2576600,7475802,4899202,Americas,New South Wales
+35094,2006-2015,2576600,7475802,4899202,Americas,New South Wales
+20,1900-1945,483284,1675834,1192550,North-East Asia,South Australia
+82,1946-1955,483284,1675834,1192550,North-East Asia,South Australia
+331,1956-1965,483284,1675834,1192550,North-East Asia,South Australia
+284,1966-1975,483284,1675834,1192550,North-East Asia,South Australia
+897,1976-1985,483284,1675834,1192550,North-East Asia,South Australia
+2195,1986-1995,483284,1675834,1192550,North-East Asia,South Australia
+4933,1996-2005,483284,1675834,1192550,North-East Asia,South Australia
+22643,2006-2015,483284,1675834,1192550,North-East Asia,South Australia
+3,1900-1945,71192,228723,157531,South-East Asia,Northern Territory
+12,1946-1955,71192,228723,157531,South-East Asia,Northern Territory
+67,1956-1965,71192,228723,157531,South-East Asia,Northern Territory
+487,1966-1975,71192,228723,157531,South-East Asia,Northern Territory
+1353,1976-1985,71192,228723,157531,South-East Asia,Northern Territory
+1526,1986-1995,71192,228723,157531,South-East Asia,Northern Territory
+1251,1996-2005,71192,228723,157531,South-East Asia,Northern Territory
+5808,2006-2015,71192,228723,157531,South-East Asia,Northern Territory
+114,1900-1945,1357273,4701093,3343820,North-East Asia,Queensland
+426,1946-1955,1357273,4701093,3343820,North-East Asia,Queensland
+807,1956-1965,1357273,4701093,3343820,North-East Asia,Queensland
+981,1966-1975,1357273,4701093,3343820,North-East Asia,Queensland
+2570,1976-1985,1357273,4701093,3343820,North-East Asia,Queensland
+12303,1986-1995,1357273,4701093,3343820,North-East Asia,Queensland
+21228,1996-2005,1357273,4701093,3343820,North-East Asia,Queensland
+54128,2006-2015,1357273,4701093,3343820,North-East Asia,Queensland
+152,1900-1945,980182,2473041,1492859,South-East Asia,Western Australia
+512,1946-1955,980182,2473041,1492859,South-East Asia,Western Australia
+1171,1956-1965,980182,2473041,1492859,South-East Asia,Western Australia
+5608,1966-1975,980182,2473041,1492859,South-East Asia,Western Australia
+12599,1976-1985,980182,2473041,1492859,South-East Asia,Western Australia
+19851,1986-1995,980182,2473041,1492859,South-East Asia,Western Australia
+18508,1996-2005,980182,2473041,1492859,South-East Asia,Western Australia
+56047,2006-2015,980182,2473041,1492859,South-East Asia,Western Australia
+5,1900-1945,98312,509807,411495,Southern and Central Asia,Tasmania
+38,1946-1955,98312,509807,411495,Southern and Central Asia,Tasmania
+60,1956-1965,98312,509807,411495,Southern and Central Asia,Tasmania
+137,1966-1975,98312,509807,411495,Southern and Central Asia,Tasmania
+83,1976-1985,98312,509807,411495,Southern and Central Asia,Tasmania
+145,1986-1995,98312,509807,411495,Southern and Central Asia,Tasmania
+315,1996-2005,98312,509807,411495,Southern and Central Asia,Tasmania
+3490,2006-2015,98312,509807,411495,Southern and Central Asia,Tasmania
+20,1900-1945,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+369,1946-1955,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+693,1956-1965,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+1408,1966-1975,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+1110,1976-1985,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+1868,1986-1995,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+5016,1996-2005,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+12977,2006-2015,1357273,4701093,3343820,North Africa and the Middle East,Queensland
+316,1900-1945,2576600,7475802,4899202,North-East Asia,New South Wales
+1263,1946-1955,2576600,7475802,4899202,North-East Asia,New South Wales
+2990,1956-1965,2576600,7475802,4899202,North-East Asia,New South Wales
+4811,1966-1975,2576600,7475802,4899202,North-East Asia,New South Wales
+18621,1976-1985,2576600,7475802,4899202,North-East Asia,New South Wales
+68256,1986-1995,2576600,7475802,4899202,North-East Asia,New South Wales
+83643,1996-2005,2576600,7475802,4899202,North-East Asia,New South Wales
+149789,2006-2015,2576600,7475802,4899202,North-East Asia,New South Wales
+33,1900-1945,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+67,1946-1955,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+274,1956-1965,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+847,1966-1975,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+1095,1976-1985,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+1224,1986-1995,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+1266,1996-2005,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+1818,2006-2015,127100,397139,270039,Oceania and Antarctica,Australian Capital Territory
+7,1900-1945,71192,228723,157531,North-East Asia,Northern Territory
+12,1946-1955,71192,228723,157531,North-East Asia,Northern Territory
+24,1956-1965,71192,228723,157531,North-East Asia,Northern Territory
+50,1966-1975,71192,228723,157531,North-East Asia,Northern Territory
+110,1976-1985,71192,228723,157531,North-East Asia,Northern Territory
+190,1986-1995,71192,228723,157531,North-East Asia,Northern Territory
+331,1996-2005,71192,228723,157531,North-East Asia,Northern Territory
+1823,2006-2015,71192,228723,157531,North-East Asia,Northern Territory
+297,1900-1945,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+605,1946-1955,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+1834,1956-1965,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+6377,1966-1975,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+13511,1976-1985,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+17888,1986-1995,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+26647,1996-2005,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+43444,2006-2015,2076071,5921586,3845515,Oceania and Antarctica,Victoria
+22,1900-1945,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+131,1946-1955,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+1132,1956-1965,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+2596,1966-1975,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+4608,1976-1985,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+4950,1986-1995,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+19142,1996-2005,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+31827,2006-2015,1357273,4701093,3343820,Sub-Saharan Africa,Queensland
+12,1900-1945,98312,509807,411495,Southern and Eastern Europe,Tasmania
+589,1946-1955,98312,509807,411495,Southern and Eastern Europe,Tasmania
+954,1956-1965,98312,509807,411495,Southern and Eastern Europe,Tasmania
+620,1966-1975,98312,509807,411495,Southern and Eastern Europe,Tasmania
+372,1976-1985,98312,509807,411495,Southern and Eastern Europe,Tasmania
+342,1986-1995,98312,509807,411495,Southern and Eastern Europe,Tasmania
+292,1996-2005,98312,509807,411495,Southern and Eastern Europe,Tasmania
+379,2006-2015,98312,509807,411495,Southern and Eastern Europe,Tasmania
+80,1900-1945,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+194,1946-1955,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+847,1956-1965,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+4645,1966-1975,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+10460,1976-1985,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+13571,1986-1995,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+14280,1996-2005,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+36086,2006-2015,980182,2473041,1492859,Oceania and Antarctica,Western Australia
+17,1900-1945,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+930,1946-1955,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+2145,1956-1965,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+2361,1966-1975,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+876,1976-1985,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+1165,1986-1995,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+893,1996-2005,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+1122,2006-2015,127100,397139,270039,Southern and Eastern Europe,Australian Capital Territory
+3,1900-1945,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+20,1946-1955,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+136,1956-1965,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+254,1966-1975,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+406,1976-1985,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+490,1986-1995,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+1116,1996-2005,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+2399,2006-2015,127100,397139,270039,Sub-Saharan Africa,Australian Capital Territory
+34,1900-1945,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+178,1946-1955,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+1186,1956-1965,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+5218,1966-1975,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+6152,1976-1985,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+10008,1986-1995,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+17493,1996-2005,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+26693,2006-2015,2076071,5921586,3845515,Sub-Saharan Africa,Victoria
+18,1900-1945,127100,397139,270039,North-East Asia,Australian Capital Territory
+57,1946-1955,127100,397139,270039,North-East Asia,Australian Capital Territory
+124,1956-1965,127100,397139,270039,North-East Asia,Australian Capital Territory
+227,1966-1975,127100,397139,270039,North-East Asia,Australian Capital Territory
+623,1976-1985,127100,397139,270039,North-East Asia,Australian Capital Territory
+1707,1986-1995,127100,397139,270039,North-East Asia,Australian Capital Territory
+3083,1996-2005,127100,397139,270039,North-East Asia,Australian Capital Territory
+8854,2006-2015,127100,397139,270039,North-East Asia,Australian Capital Territory
+762,1900-1945,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+1181,1946-1955,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+4265,1956-1965,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+13511,1966-1975,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+27386,1976-1985,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+36601,1986-1995,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+41594,1996-2005,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+41137,2006-2015,2576600,7475802,4899202,Oceania and Antarctica,New South Wales
+58,1900-1945,980182,2473041,1492859,Southern and Central Asia,Western Australia
+806,1946-1955,980182,2473041,1492859,Southern and Central Asia,Western Australia
+667,1956-1965,980182,2473041,1492859,Southern and Central Asia,Western Australia
+4579,1966-1975,980182,2473041,1492859,Southern and Central Asia,Western Australia
+1735,1976-1985,980182,2473041,1492859,Southern and Central Asia,Western Australia
+4303,1986-1995,980182,2473041,1492859,Southern and Central Asia,Western Australia
+8255,1996-2005,980182,2473041,1492859,Southern and Central Asia,Western Australia
+48833,2006-2015,980182,2473041,1492859,Southern and Central Asia,Western Australia
+4,1900-1945,71192,228723,157531,North-West Europe,Northern Territory
+484,1946-1955,71192,228723,157531,North-West Europe,Northern Territory
+1112,1956-1965,71192,228723,157531,North-West Europe,Northern Territory
+1917,1966-1975,71192,228723,157531,North-West Europe,Northern Territory
+817,1976-1985,71192,228723,157531,North-West Europe,Northern Territory
+727,1986-1995,71192,228723,157531,North-West Europe,Northern Territory
+946,1996-2005,71192,228723,157531,North-West Europe,Northern Territory
+3347,2006-2015,71192,228723,157531,North-West Europe,Northern Territory
+270,1900-1945,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+9147,1946-1955,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+16137,1956-1965,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+8594,1966-1975,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+3604,1976-1985,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+4520,1986-1995,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+4547,1996-2005,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+3550,2006-2015,483284,1675834,1192550,Southern and Eastern Europe,South Australia
+34,1900-1945,483284,1675834,1192550,North Africa and the Middle East,South Australia
+265,1946-1955,483284,1675834,1192550,North Africa and the Middle East,South Australia
+407,1956-1965,483284,1675834,1192550,North Africa and the Middle East,South Australia
+774,1966-1975,483284,1675834,1192550,North Africa and the Middle East,South Australia
+675,1976-1985,483284,1675834,1192550,North Africa and the Middle East,South Australia
+1188,1986-1995,483284,1675834,1192550,North Africa and the Middle East,South Australia
+3190,1996-2005,483284,1675834,1192550,North Africa and the Middle East,South Australia
+7458,2006-2015,483284,1675834,1192550,North Africa and the Middle East,South Australia
+40,1900-1945,1357273,4701093,3343820,Americas,Queensland
+329,1946-1955,1357273,4701093,3343820,Americas,Queensland
+1022,1956-1965,1357273,4701093,3343820,Americas,Queensland
+5220,1966-1975,1357273,4701093,3343820,Americas,Queensland
+4078,1976-1985,1357273,4701093,3343820,Americas,Queensland
+6760,1986-1995,1357273,4701093,3343820,Americas,Queensland
+7881,1996-2005,1357273,4701093,3343820,Americas,Queensland
+21575,2006-2015,1357273,4701093,3343820,Americas,Queensland
+4,1900-1945,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+54,1946-1955,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+71,1956-1965,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+224,1966-1975,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+245,1976-1985,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+485,1986-1995,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+941,1996-2005,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+1989,2006-2015,127100,397139,270039,North Africa and the Middle East,Australian Capital Territory
+32,1900-1945,483284,1675834,1192550,South-East Asia,South Australia
+99,1946-1955,483284,1675834,1192550,South-East Asia,South Australia
+383,1956-1965,483284,1675834,1192550,South-East Asia,South Australia
+1217,1966-1975,483284,1675834,1192550,South-East Asia,South Australia
+8175,1976-1985,483284,1675834,1192550,South-East Asia,South Australia
+8849,1986-1995,483284,1675834,1192550,South-East Asia,South Australia
+6285,1996-2005,483284,1675834,1192550,South-East Asia,South Australia
+19255,2006-2015,483284,1675834,1192550,South-East Asia,South Australia
+13,1900-1945,127100,397139,270039,South-East Asia,Australian Capital Territory
+58,1946-1955,127100,397139,270039,South-East Asia,Australian Capital Territory
+255,1956-1965,127100,397139,270039,South-East Asia,Australian Capital Territory
+819,1966-1975,127100,397139,270039,South-East Asia,Australian Capital Territory
+2429,1976-1985,127100,397139,270039,South-East Asia,Australian Capital Territory
+2545,1986-1995,127100,397139,270039,South-East Asia,Australian Capital Territory
+2200,1996-2005,127100,397139,270039,South-East Asia,Australian Capital Territory
+5583,2006-2015,127100,397139,270039,South-East Asia,Australian Capital Territory
