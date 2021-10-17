@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Urban Area of Australia",
-    "width": 1500,
+    "width": 1450,
     "height" : 800,
+    "background" : "#f2f5f8",
     "data": {
       "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
       "format": {
@@ -47,7 +48,8 @@
         {
           "mark": {
               "type": "geoshape",
-              "color" : "lightgrey"
+              "color" : "lightgrey",
+              "stroke" : "white"
               }
         },
         {

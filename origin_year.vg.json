@@ -7,6 +7,7 @@
           "feature": "aus_states.geo"
         }
   },
+  "background" : "#f2f5f8",
   "transform": [{
       "lookup": "properties.STATE_NAME",
       "from": {
@@ -53,7 +54,7 @@
     "vconcat":[
         {
             "title" : "Origin map",
-            "width": 1500,
+            "width": 1375,
             "height" : 700,
             "layer": [
                 {
@@ -80,7 +81,7 @@
                         "legend" : {"title" : "Number of immigrants", "orient" : "top-left"}},
                         "tooltip" : [
                             {"field" : "Origin", "title" : "Country"},
-                            {"field" : "Val", "format" : ",", "title" : "Number of immigrants in year_select"}
+                            {"field" : "Val", "format" : ",", "title" : "Number of immigrants in"}
                         ]
                     }
                 }
@@ -90,7 +91,7 @@
             "hconcat": [
                 {  
                     "title" : "Yearly breakdown",
-                    "width": 1000,
+                    "width": 900,
                     "height" : 400,
                     "params": [
                         {
@@ -132,7 +133,7 @@
                 },
                 {
                     "title" : "Most common destination (2016)",
-                    "width": 500,
+                    "width": 450,
                     "height" : 400,
                     "projection": {"type": "mercator"},
                     "mark": {

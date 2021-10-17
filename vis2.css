@@ -18,11 +18,14 @@ a {font-family: 'Open Sans', sans-serif; text-align: center;}
 .main_page {
   width : 1500px;
   margin : auto;
+  padding-top: 10px;
+  background-color: #f2f5f8;
 }
 
 .vega-bind {
   font-family: 'Open Sans', sans-serif;
   margin : auto;
+  padding-left: 20px;
 }
 
 select {
