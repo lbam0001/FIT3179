@@ -117,7 +117,8 @@
                     "encoding" : {
                         "x": {"field": "Year_range", "type": "nominal", "axis": {"title": "Year immigrated"}},
                         "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}, "aggregate": "sum"},
-                        "color" : {"field": "Cont_origin", "type" : "nominal", "legend" : {"orient" : "top-left"}, "title" : "Continent"},
+                        "color" : {"field": "Cont_origin", "type" : "nominal", "legend" : {"orient" : "top-left"}, "title" : "Continent",
+                            "scale" : {"range": ["#9dc7c4", "#25528a", "#c98730", "#c93030", "#54a24b",  "#f2cd83", "#e3b354", "#6e1f1f", "#1374ed"]}},
                         "opacity": {
                             "condition" : {
                             "param" : "year_select",
