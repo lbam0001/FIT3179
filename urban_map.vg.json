@@ -117,6 +117,28 @@
                     {"field" : "pop_change", "title": "% change since 2011", "format": ".2f"}
                 ]
             }
+        },
+        {
+            "data" : {
+                "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/city_location_pop_joined.csv"
+            },
+            "mark" : {
+                "type": "text",
+                "align": "right",
+                "xOffset": 20
+            },
+            "encoding": {
+                "text" : {"field" : "City", "type" : "nominal"},
+                "opacity" :{
+                    "condition" : {
+                        "test" : "datum.Total_2016 > 1000000",
+                        "value" : 1
+                    },
+                    "value" : 0
+                },
+                "longitude" : {"field" : "lng", "type" : "quantitative"},
+                "latitude" : {"field" : "lat", "type" : "quantitative"}
+            }
         }
     ]
     

@@ -79,6 +79,7 @@
                         "latitude": {"field": "latitude"},
                         "size" : {"field" : "Val", "type": "quantitative", "scale": {"range": [10, 1000]},
                         "legend" : {"title" : "Number of immigrants", "orient" : "top-left"}},
+                        "color" : {"field": "Continent", "type" : "nominal", "legend" : {"orient" : "top-left"}},
                         "tooltip" : [
                             {"field" : "Origin", "title" : "Country"},
                             {"field" : "Val", "format" : ",", "title" : "Number of immigrants in"}
