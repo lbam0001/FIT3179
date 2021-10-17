@@ -14,36 +14,64 @@
         <link rel="stylesheet" type="text/css" href="vis2.css" media="all">
     
         <title>Australia's Demography</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
-        <h2>Australia's Demography</h2>
-        
-        <div class="center">
-            <p>Introduction into upcoming census and background on the last one</p>
+        <div class = "main_page">
+
+            <h1 >Australia's Demography</h1>
+
+            <div class="center">
+                <p>Every five years the <a href = "https://www.abs.gov.au/">Australian Bureau of Statistics</a> conducts a census of everyone living in Australia.
+                The purpose of this is to record where people are living and their qualities in order to guide public policy.
+                This year another census was conducted and the results will be released from June 2022 onwards.
+                These charts aim to visualise the results of the previous, 2016, census data.</p>
+            </div>
+
+            <hr class = "hr1">
+
+            <div class="center">
+                <p>The majority of Australia's population lives in cities in the south-east.
+                    This is where the continent is wettest and thus capable of growing enough food to support these cities.</p>
+            </div>
+
+            <div id = "urban_pop_map">
+            </div>
+
+            <hr class = "hr1">
+
+            <div>
+                <p>
+                    Without immigration Australia's population will steadily age, given the birth rate of all states and territories is now below 2.0.
+                    You can see this pattern clearly by filtering the below two charts for Tasmania using the legend.
+                    As the state with the lowest immigration rate as shown further on, it has the oldest population despite a relatively high birth rate.
+                </p>
+                <div id = "birth_charts">
+                </div>
+                
+            </div>
+
+            <hr class = "hr1">
+
+            <div class="center">
+                <p>For the last century Australia has relied apon immigration to grow the population and fill skill shortages.
+                    The most common origin of immigrants has shifted from Europe to southern and eastern asia. 
+                    Australia has many economic treaties with New Zealand making it easy to work and live in the other nation.
+                    This, and the proximity, explains why New Zealand is such a large source relative to its native population.
+                    
+                </p>
+            </div>
+            
+            <div class="center">
+                <div id = "imm_pop_map"></div>
+            </div>
+
+            <hr class = "hr1">
         </div>
-
-        <div id = "urban_pop_map">
-        </div>
-
-        <div class="center">
-            <p>Australia has a successful immigration program</p>
-        </div>
-        
-        <div class="center">
-            <div id = "imm_pop_map"></div>
-        </div>
-        
-        <div class="center">
-            <p>Australia's age breakdown varies between states</p>
-        </div>
-
-        <div id = "pop_pyramid" class="center"></div>
-
-        <div id = "world_pop_map" class="center"></div>
-
-        
-
 
     </body>
 

@@ -1,10 +1,30 @@
-h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;} 
-h2 {text-align: center;}
-p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-p {text-align: center;}
-div {margin: auto;}
+
+h1 {font-family: 'Open Sans', sans-serif; text-align: center;}
+p {font-family: 'Open Sans', sans-serif; text-align: center;}
+a {font-family: 'Open Sans', sans-serif; text-align: center;}
 
 .vega-embed.has-actions {
     margin: auto;
-    padding: 10px;
+    padding: 10dx;
   }
+
+.hr1 {
+  background-image: linear-gradient(to right, transparent, #396191, transparent);
+  border: 0;
+  height: 2px;
+  padding-top: 5px;
+}
+
+.main_page {
+  width : 1500px;
+  margin : auto;
+}
+
+.vega-bind {
+  font-family: 'Open Sans', sans-serif;
+  margin : auto;
+}
+
+select {
+  font-family: 'Open Sans', sans-serif;
+}

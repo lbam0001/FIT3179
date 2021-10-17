@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Urban Area of Australia",
-    "width": 800,
-    "height" : 600,
+    "width": 1500,
+    "height" : 800,
     "data": {
       "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
       "format": {
@@ -13,12 +13,12 @@
     "params": [
         {
             "name" : "centre_state",
-            "value" : [[133.7751, -28.2744], 850, null],
+            "value" : [[133.7751, -28.2744], 1160, null],
             "bind" : {
                 "name" : "State centre ",
                 "input" : "select",
                 "options" : [
-                    [[133.7751, -28.2744], 850, null],
+                    [[133.7751, -28.2744], 1160, null],
                     [[146.9211, -33.2532], 2700, "New South Wales"],
                     [[143.3906, -36.9848], 3000, "Victoria"],
                     [[144.0848, -20.5752], 1600, "Queensland"],
@@ -64,12 +64,14 @@
             "size" : {"field" : "Total_2016",
                 "type" : "quantitative",
                 "scale": {"rangeMax": {"expr": "centre_state[1]"}, "rangeMin": {"expr": "centre_state[1] / 80 + 5"}},
-                "title" : "2016 Population"},
+                "title" : "2016 Population",
+                "legend" : {"orient": "top-right"}},
             "color" : {
                 "field" : "pop_change", 
                 "type" : "quantitative",
                 "title" : "% change since 2011",
-                "scale": {"range" : ["#ff7f0e", "#17becf"], "domainMid" : 0}
+                "scale": {"range" : ["#ff7f0e", "#17becf"], "domainMid" : 0},
+                "legend" : {"orient": "top-right", "direction" : "vertical"}
                 },
             "opacity" : {
                 "condition" : {
@@ -106,7 +108,7 @@
                     },
                     "value": 0
                   },
-                "size" : {"field" : "centre_state[1]", "scale" : {"rangeMax": 100}, "title": "Capitals"},
+                "size" : {"field" : "centre_state[1]", "scale" : {"rangeMax": 100}, "title": "Capitals", "legend" : {"values" : [""], "orient": "top-right"}},
                 "tooltip": [
                     {"field" : "City"},
                     {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},

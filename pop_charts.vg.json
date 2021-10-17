@@ -1,0 +1,106 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "center" : true,
+    "hconcat": [
+        {
+            "height" : 400,
+            "width" : 1000,
+            "data" : {
+                "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/fert_rate_bystate.csv"
+            },
+            "layer" :[
+                {
+                    "mark" : "line",
+                    "encoding": {
+                        "x" : {"field" : "Year", "type": "ordinal"},
+                        "y" : {"field" : "Value", "type": "quantitative", "axis" : {"title" : "Fertility rate"}},
+                        "color" : {"field" : "State", "type": "nominal", "legend" : {"orient" : "top"}},
+                        "opacity" : {
+                            "condition" : {
+                                "param": "state_select", "value": 1
+                            },
+                            "value" : 0.1
+                        },
+                        "size" : {
+                            "condition" : {
+                                "param": "state_select", "value": 2
+                            },
+                            "value" : 2
+                        },
+                        "tooltip" : [
+                            {"field" : "Year", "type": "ordinal"},
+                            {"field" : "Value", "type": "quantitative", "title" : "Birth rate", "format" : ".2f"},
+                            {"field" : "State", "type": "nominal"}
+                        ]
+                    },
+                    "params" : [
+                        {
+                            "name" : "state_select",
+                            "select": {"type" : "point", "fields": ["State"]},
+                            "bind": "legend"
+                        }
+                    ]
+                },
+                {
+                    "data" : {
+                        "values" : [{"benchmark" : 3}]
+                    },
+                    "mark" : "rule",
+                    "encoding": {
+                        "y" : {}
+                    }
+                }
+            ]
+        },
+        {
+            "height" : 400,
+            "width" : 500,
+            "data": {
+                "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/pop_pyr.csv"
+              },
+            "transform": [
+                {"filter" : {"param" : "state_select"}},
+                {"filter" : "datum.Age_Bracket != 'Total'"}, 
+                {"calculate": "indexof(['100 plus', '95-99', '90-94', '85-89', '80-84', '75-79', '70-74', '65-69', '60-64', '55-59', '50-54', '45-49', '40-44', '35-39', '30-34', '25-29', '20-24', '15-19', '10-14', '5-9', '0-4'], datum.Age_Bracket)",
+                "as" : "order"}
+            ],
+            "spacing" : 0,
+            "hconcat": [
+                {
+                    "title": "Women",
+                    "mark": {"type": "bar", "color": "#675193"},
+                    "encoding": {
+                        "y" : {"field": "Age_Bracket", "sort": "order", "axis": null},
+                        "x" : {"field": "Female", "type" : "quantitative", "sort": "descending", "title": "Population"},
+                        "tooltip": [
+                            {"field": "Female", "title" : "Female population", "format" : ","}
+                        ]
+                    }
+                },
+                {
+                    "width": 20,
+                    "view": {"stroke": null},
+                    "mark": {
+                        "type": "text",
+                        "align": "center"
+                    },
+                    "encoding": {
+                        "y": {"field": "Age_Bracket", "type": "nominal", "axis": null, "sort": "order"},
+                        "text": {"field": "Age_Bracket", "type": "nominal"}
+                    }
+                },
+                {
+                    "title": "Men",
+                    "mark": {"type": "bar", "color": "#ca8861"},
+                    "encoding": {
+                        "y" : {"field": "Age_Bracket", "sort": "order", "axis": null},
+                        "x" : {"field": "Male", "type" : "quantitative", "title": "Population"},
+                        "tooltip": [
+                            {"field": "Male", "title" : "Male population", "format" : ","}
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

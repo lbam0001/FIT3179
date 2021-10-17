@@ -1,0 +1,161 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+    "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/states.topo.geo.json",
+    "format": {
+          "type": "topojson",
+          "feature": "aus_states.geo"
+        }
+  },
+  "transform": [{
+      "lookup": "properties.STATE_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/cont_origin_long.csv"
+        },
+        "key": "State",
+        "fields": ["Total_imm", "State_Total", "Cont_origin"]
+      }
+    },
+    {"calculate": "datum.Total_imm / datum.State_Total * 1000", "as": "immigrants per 1000"}
+  ],
+    "params": [
+        {
+            "name": "state_selection",
+            "bind": {
+              "input": "select",
+              "options": [
+                null,
+                "Western Australia",
+                "South Australia",
+                "Northern Territory",
+                "Queensland",
+                "New South Wales",
+                "Victoria",
+                "Tasmania",
+                "Australian Capital Territory"
+              ],
+              "labels":[
+                "National",
+                "Western Australia",
+                "South Australia",
+                "Northern Territory",
+                "Queensland",
+                "New South Wales",
+                "Victoria",
+                "Tasmania",
+                "Australian Capital Territory"
+              ],
+              "name": "State Selection: "
+            }
+        }
+    ],
+    "vconcat":[
+        {
+            "title" : "Origin map",
+            "width": 1500,
+            "height" : 700,
+            "layer": [
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+                        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                    },
+                    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+                    "projection": {"type" : "equalEarth"}
+                },
+                {
+                    "data" : {
+                        "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/country_origin_long_lat_LONG.csv"
+                    },
+                    "transform": [
+                        {"filter" : {"param" : "year_select"}},
+                        {"filter" : "datum.Val > 5"}
+                    ],
+                    "mark" : "circle",
+                    "encoding": {
+                        "longitude": {"field" : "longitude"},
+                        "latitude": {"field": "latitude"},
+                        "size" : {"field" : "Val", "type": "quantitative", "scale": {"range": [10, 1000]},
+                        "legend" : {"title" : "Number of immigrants", "orient" : "top-left"}},
+                        "tooltip" : [
+                            {"field" : "Origin", "title" : "Country"},
+                            {"field" : "Val", "format" : ",", "title" : "Number of immigrants in year_select"}
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "hconcat": [
+                {  
+                    "title" : "Yearly breakdown",
+                    "width": 1000,
+                    "height" : 400,
+                    "params": [
+                        {
+                        "name": "year_select",
+                        "select" : {"type": "point", "encodings": ["x"]},
+                        "value" : "2006-2015"
+                        }
+                    ],
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/cont_origin_long.csv"
+                    },
+                    "transform": [{
+                        "aggregate": [{
+                            "op" : "sum",
+                            "field" : "Imm_value",
+                            "as" : "total_imm_origin"
+                        }],
+                        "groupby": ["Cont_origin", "Year_range", "State"]
+                    },
+                    {"filter": "(state_selection == null || datum.State == state_selection)"}],
+                    "mark": {"type": "bar"},
+                    "encoding" : {
+                        "x": {"field": "Year_range", "type": "nominal", "axis": {"title": "Year immigrated"}},
+                        "y": {"field": "total_imm_origin", "type" : "quantitative", "axis": {"title": "Number of Immigrants"}, "aggregate": "sum"},
+                        "color" : {"field": "Cont_origin", "type" : "nominal", "legend" : {"orient" : "top-left"}, "title" : "Continent"},
+                        "opacity": {
+                            "condition" : {
+                            "param" : "year_select",
+                            "value" : 1
+                            },
+                            "value" : 0.35
+                        },
+                        "tooltip": [
+                            {"field": "total_imm_origin", "type": "quantitative", "title": "Immigrants in this period"},
+                            {"field" : "Cont_origin", "type": "nominal", "title": "Origin"},
+                            {"field": "State", "type": "nominal"}
+                        ]
+                    }
+                },
+                {
+                    "title" : "Most common destination (2016)",
+                    "width": 500,
+                    "height" : 400,
+                    "projection": {"type": "mercator"},
+                    "mark": {
+                        "type": "geoshape",
+                        "stroke": "white"
+                        },
+                    "encoding": {
+                        "color": {
+                          "field": "immigrants per 1000",
+                          "type": "quantitative",
+                          "title" : "Immigrants per 1000 residents",
+                          "legend" : {"orient": "bottom-left", "direction": "horizontal"}
+                        },
+                        "tooltip": [
+                          {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
+                          {"field": "immigrants per 1000", "type": "quantitative", "title": "Number of immigrants per 1000 residents", "format": ".2f"},
+                          {"field" : "Total_imm", "type": "quantitative", "title" : "Total number of immigrants", "format" : ","}
+                        ]
+                      }
+                  }
+            ]
+        }
+        
+    ]
+}
+  
