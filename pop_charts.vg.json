@@ -5,7 +5,7 @@
     "hconcat": [
         {
             "height" : 400,
-            "width" : 500,
+            "width" : 950,
             "data" : {
                 "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/fert_rate_bystate.csv"
             },
@@ -41,15 +41,6 @@
                             "bind": "legend"
                         }
                     ]
-                },
-                {
-                    "data" : {
-                        "values" : [{"benchmark" : 3}]
-                    },
-                    "mark" : "rule",
-                    "encoding": {
-                        "y" : {}
-                    }
                 }
             ]
         },
@@ -72,10 +63,7 @@
                     "mark": {"type": "bar", "color": "#675193"},
                     "encoding": {
                         "y" : {"field": "Age_Bracket", "sort": "order", "axis": null},
-                        "x" : {"field": "Female", "type" : "quantitative", "sort": "descending", "title": "Population"},
-                        "tooltip": [
-                            {"field": "Female", "title" : "Female population", "format" : ","}
-                        ]
+                        "x" : {"field": "Female", "type" : "quantitative", "sort": "descending", "title": "Population"}
                     }
                 },
                 {
@@ -95,10 +83,7 @@
                     "mark": {"type": "bar", "color": "#ca8861"},
                     "encoding": {
                         "y" : {"field": "Age_Bracket", "sort": "order", "axis": null},
-                        "x" : {"field": "Male", "type" : "quantitative", "title": "Population"},
-                        "tooltip": [
-                            {"field": "Male", "title" : "Male population", "format" : ","}
-                        ]
+                        "x" : {"field": "Male", "type" : "quantitative", "title": "Population"}
                     }
                 }
             ]

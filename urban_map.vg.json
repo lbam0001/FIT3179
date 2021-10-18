@@ -20,14 +20,14 @@
                 "input" : "select",
                 "options" : [
                     [[133.7751, -28.2744], 1160, null],
-                    [[146.9211, -33.2532], 2700, "New South Wales"],
-                    [[143.3906, -36.9848], 3000, "Victoria"],
-                    [[144.0848, -20.5752], 1600, "Queensland"],
-                    [[121.6283, -24.6728], 1400, "Western Australia"],
+                    [[146.9211, -33.2532], 3000, "New South Wales"],
+                    [[143.3906, -36.9848], 3300, "Victoria"],
+                    [[144.0848, -20.5752], 2000, "Queensland"],
+                    [[121.6283, -24.6728], 1800, "Western Australia"],
                     [[136.2092, -32], 2200, "South Australia"],
-                    [[146.8087, -42.0409], 3000, "Tasmania"],
+                    [[146.8087, -42.0409], 3300, "Tasmania"],
                     [[132.5510, -18.4914], 2000, "Northern Territory"],
-                    [[149.13, -35.2809], 3000, "Australian Capital Territory"]
+                    [[149.13, -35.2809], 3300, "Australian Capital Territory"]
                 ],
                 "labels": [
                     "National",
@@ -122,22 +122,24 @@
             "data" : {
                 "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/city_location_pop_joined.csv"
             },
+            "transform": [
+                {"calculate": "((datum.Total_2016 - datum.Total_2011) / datum.Total_2011) * 100", "as" : "pop_change"},
+                {"filter" : "datum.Total_2016 > 1000000"}
+            ],
             "mark" : {
                 "type": "text",
-                "align": "right",
-                "xOffset": 20
+                "align": "left",
+                "dx": 15
             },
             "encoding": {
                 "text" : {"field" : "City", "type" : "nominal"},
-                "opacity" :{
-                    "condition" : {
-                        "test" : "datum.Total_2016 > 1000000",
-                        "value" : 1
-                    },
-                    "value" : 0
-                },
                 "longitude" : {"field" : "lng", "type" : "quantitative"},
-                "latitude" : {"field" : "lat", "type" : "quantitative"}
+                "latitude" : {"field" : "lat", "type" : "quantitative"},
+                "tooltip": [
+                    {"field" : "City"},
+                    {"field" : "Total_2016", "format" : ",", "title" : "2016 Population"},
+                    {"field" : "pop_change", "title": "% change since 2011", "format": ".2f"}
+                ]
             }
         }
     ]

@@ -85,6 +85,25 @@
                             {"field" : "Val", "format" : ",", "title" : "Number of immigrants in"}
                         ]
                     }
+                },
+                {
+                    "data" : {
+                        "url" : "https://raw.githubusercontent.com/lbam0001/FIT3179/main/datasets/country_origin_long_lat_LONG.csv"
+                    },
+                    "mark" : {
+                        "type": "text",
+                        "align": "right",
+                        "dx": -15
+                    },
+                    "transform": [
+                        {"filter" : {"param" : "year_select"}},
+                        {"filter" : "datum.Val > 50000"}
+                    ],
+                    "encoding": {
+                        "longitude": {"field" : "longitude"},
+                        "latitude": {"field": "latitude"},
+                        "text" : {"field" : "Origin"}
+                    }
                 }
             ]
         },
